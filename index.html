@@ -1,45 +1,97 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
-        <META HTTP-EQUIV="Expires" CONTENT="-1">
-        <style type="text/css">
-            body {
-                background-color:#3686be;
-                color:#FFF;
-                border:0px;
-                margin:0px;
-                overflow:hidden;
-            }
-            .wrapper {
-                position:absolute;
-                top:15%;
-                left:0px;
-                right:0px;
-                width:100%;
-                height:auto;
-            }
-            .sammy {
-                float:left;
-                width:100%;
-                height:auto;
-                text-align:center;
-            }
-            .message {
-                float:left;
-                width:100%;
-                height:auto;
-                font-size:36px;
-                text-align:center;
-                font-family:Arial,Helvetica,sans-serif;
-                margin-top:25px;
-            }
-        </style>
+        <title>Portfolio | Jacob Johnston - Web Developer</title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
     <body>
-        <div class="wrapper">
-            <h1>Coming Soon</h1>
-            <h3>CONTACT: Jacob@johnstonjacob.com</h3>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container nav">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Jacob Johnston</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li><a href="http://quietdeveloper.com">Blog //TODO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="cl-lg-12">
+                    <div id="content">
+                        <h1>Front-End Web Developer</h1>
+                        <h3><span class="header-content"> Based out of San Antonio, TX. Specializing in the MERN stack. If you are a business looking to establish your web presence or an employer looking to hire, you can get in touch with me <a href="#">here</a>.</span></h3>
+                        <button class="btn btn-default btn-xl">Looking for a website //TODO<i class="fa fa-chevron-circle-right chevron"></i></button>
+                        <button class="btn btn-default btn-xl btn-two">Looking to hire //TODO<i class="fa fa-chevron-circle-right chevron"></i></button>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="container-fluid below-body">
+            <div class="row">
+                <a name="portfolio"></a>
+                <div class="container port-item">
+                    <div class="col-md-6 col-xs-12">
+                        <img src="https://jonny.me/img/hal-con.jpg">
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <h2 class="body-title xs-center md-center">Taco Muchchachos  //TODO</h2>
+                        <p class="body-desc xs-center md-center">San Antonio Restaurant website using HTML, CSS, Bootstrap //TODO</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="container port-item">
+                <div class="col-md-6 col-xs-12">
+                    <img src="https://jonny.me/img/hal-con.jpg">
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <h2 class="body-title xs-center md-center">Taco Muchchachos //TODO</h2>
+                    <p class="body-desc xs-center md-center">San Antonio Restaurant website using HTML, CSS, Bootstrap //TODO</p>
+                </div>
+            </div>
+            <hr>
+            <div class="container port-item">
+                <div class="col-md-6 col-xs-12">
+                    <img src="https://jonny.me/img/hal-con.jpg">
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <h2 class="body-title xs-center md-center">Taco Muchchachos //TODO</h2>
+                    <p class="body-desc xs-center md-center">San Antonio Restaurant website using HTML, CSS, Bootstrap //TODO</p>
+                </div>
+            </div>
+            <hr>
+            <div class="container-fluid contact-info">
+                <h2 class="body-title col-md-12" style="text-align:center">Contact</h2>
+                <a name="contact"></a>
+                <p class="contact-desc col-md-4"><i class="fa fa-linkedin" aria-hidden="true"></i>    <a href="https://www.linkedin.com/in/jacob-johnston-29b77695/" class="contact-desc">LinkedIn</a></p>
+                <p class="contact-desc col-md-4"><i class="fa fa-envelope" aria-hidden="true"></i>    <a href="mailto:Jacob@johnstonjacob.com?Subject=Dev%20Inquiry" class="contact-desc">Jacob@johnstonjacob.com</a></p>
+                <p class="contact-desc col-md-4"><i class="fa fa-github" aria-hidden="true"></i>    <a href="https://github.com/johnstonjacob" class="contact-desc">GitHub</a></p>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>

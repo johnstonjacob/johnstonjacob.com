@@ -1,2 +1,0 @@
-# johnstonjacob.com
-Portfolio Site
